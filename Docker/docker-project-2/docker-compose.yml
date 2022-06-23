@@ -1,0 +1,29 @@
+version: "3.1"
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    networks:
+      - jaeseon-net
+    depends_on:
+      - db
+  db:
+    container_name: jaeseon-mysql
+    platform: linux/x86_64
+    image: mysql:5.7
+    env_file:
+      - ".env"
+    ports:
+      - "3306:3306"
+    networks:
+      - jaeseon-net
+    volumes:
+      - ./db:/var/lib/mysql
+  
+networks:
+  jaeseon-net:
+    driver: bridge
