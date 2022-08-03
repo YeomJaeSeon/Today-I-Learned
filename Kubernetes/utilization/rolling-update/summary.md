@@ -24,11 +24,11 @@
     apiVersion: apps/v1
     kind: Deployment
     metadata:
-    	name: deployment-recreate
+      name: deployment-recreate
     spec:
-    	replicas: 3
-    	strategy:
-    		type: Recreate # 여기에 적으면 된다. 
+      replicas: 3
+      strategy:
+        type: Recreate # 여기에 적으면 된다. 
     ```
     
     - Recreate 는 기존의 모든 포드를 한번에 삭제하기에 적합하지 않은 서비스에는 사용할수없다. 그래서 몇개의 포드만 삭제하고 생성하는 롤링 업데이트 기능도 제공한다.
@@ -37,15 +37,16 @@
     apiVersion: apps/v1
     kind: Deployment
     metadata:
-    	name: deployment-recreate
+      name: deployment-recreate
     spec:
-    	replicas: 3
-    	strategy:
-    		type: Recreate # 여기에 적으면 된다. 
-    		rollinUpdate:
-    			maxSurge: 2 # 롤링 업데이트 도중 전체 포드의 개수가 replicas값보다 얼마나 많이 존재할수있는지. 여기서는 롤링 업데이트 도중 총 5개의 포드가 존재할수있다.
-    			maxUnavailable: 2 # 롤링 업데이트 도중 사용 불가능한 상태의 포드의 최대 개수.. 이거보다 더 많은 포드가 사용 불가능중일수 없다.
-    # 적어도 1개의 포드는 실행중이다.
+      replicas: 3
+        strategy:
+    	  type: Recreate # 여기에 적으면 된다. 
+    	  rollinUpdate:
+    	    maxSurge: 2 # 롤링 업데이트 도중 전체 포드의 개수가 replicas값보다 얼마나 많이 존재할수있는지. 여기서는 롤링 업데이트 도중 총 5개의 포드가 존재할수있다.
+    		maxUnavailable: 2 # 롤링 업데이트 도중 사용 불가능한 상태의 포드의 최대 개수.. 이거보다 더 많은 포드가 사용 불가능중일수 없다.
+   
+   # 적어도 1개의 포드는 실행중이다.
     ```
     
     - replicas에 정의한 포드의 개숭
