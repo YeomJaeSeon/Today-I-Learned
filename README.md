@@ -10,6 +10,8 @@
 - [서비스](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Kubernetes/service/summary.md)
 - [네임스페이스](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Kubernetes/namespace/summary.md)
 - [컨피그맵](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Kubernetes/configmap_secret/summary.md)
+- [utilization - requests & limits](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Kubernetes/utilization/utilization-limit-request/summary.md)
+- [rolling update](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Kubernetes/utilization/rolling-update/summary.md)
 
 ## 네트워크
 
