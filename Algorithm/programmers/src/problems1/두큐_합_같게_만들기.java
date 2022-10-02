@@ -90,8 +90,8 @@ public class 두큐_합_같게_만들기 {
 
             
         }
-
-    } 
+        return 1;
+    }
 }
 class LinkedData{
     int value;
