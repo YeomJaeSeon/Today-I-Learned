@@ -28,7 +28,7 @@ promise
 이게 가능한 이유는
 
 1. `then` 메서드는 Promise를 반환한다. (그렇기에 .then()에 바로 `then` 메서드를 호출할 수 있다.)
-2. 핸들러(then)이 값을 반환하면 핸들러의 반환된 Promise객체의 result가 된다. (return res * 2를 하면 result는 1 * 2인 2가 된다.)
+2. 핸들러(then)이 값을 반환하면 해당 값은 핸들러의 반환된 Promise객체의 result가 된다. (return res * 2를 하면 then() promise객체의 result는 1 * 2인 2가 된다.)
 
 ```javascript
 const promise = new Promise((res, rej) => {
@@ -52,7 +52,7 @@ promise.then(res => {
 ```
 - 위 코드는 콘솔에 1, 1이 찍힌다.
 - 하나의 프라미스 객체를 여러번 `then`을 호출한것이기 떄문이다.
-- 즉, **프라미스 체이닝**을 이용하지 않았다.
+- 즉, **프라미스 체이닝**을 이용하지 않았다. (프라미스를 순차적으로 실행한 것이 아니다! - 주의하자)
 
 ## 프라미스 반환하기
 - 하나의 프라미스에서 .then만 여러번 호출해 체이닝을 이용할수도 있지만 .then에서 새로운 프라미스 객체를 반환할수도있다.
