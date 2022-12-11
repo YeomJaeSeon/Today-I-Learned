@@ -22,3 +22,4 @@
 
 - [콜백](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/JavaScript/Promise/callback.md)
 - [프라미스](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/JavaScript/Promise/promise.md)
+- [프라미스 체이닝](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/JavaScript/Promise/promise-chaining.md)
