@@ -23,3 +23,6 @@
 - [콜백](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/JavaScript/Promise/callback.md)
 - [프라미스](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/JavaScript/Promise/promise.md)
 - [프라미스 체이닝](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/JavaScript/Promise/promise-chaining.md)
+
+## 함수형 프로그래밍
+- [일급함수와 고차함수](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture1/%EC%9D%BC%EA%B8%89-%EA%B3%A0%EC%B0%A8%ED%95%A8%EC%88%98.js)
