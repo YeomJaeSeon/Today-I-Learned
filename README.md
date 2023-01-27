@@ -27,3 +27,4 @@
 ## 함수형 프로그래밍
 - [일급함수와 고차함수](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture1/%EC%9D%BC%EA%B8%89-%EA%B3%A0%EC%B0%A8%ED%95%A8%EC%88%98.js)
 - [es6 이터러블/이터레이터 프로토콜](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture2/iterator-iterable-protocol.js)
+- [제너레이터 함수](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture3/%EC%A0%9C%EB%84%88%EB%A0%88%EC%9D%B4%ED%84%B0-%EC%9D%B4%ED%84%B0%EB%A0%88%EC%9D%B4%ED%84%B0.js)
