@@ -30,3 +30,5 @@
 - [제너레이터 함수](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture3/%EC%A0%9C%EB%84%88%EB%A0%88%EC%9D%B4%ED%84%B0-%EC%9D%B4%ED%84%B0%EB%A0%88%EC%9D%B4%ED%84%B0.js)
 - [이터러블/이터레이터 프로토콜을 따르는 map, filter, reduce](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture4/summary.js)
 - [함수형 사고](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture4/%ED%95%A8%EC%88%98%ED%98%95%EC%82%AC%EA%B3%A0.md)
+- [코드(함수)를 값으로 다루어 표현력 높이기](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture5/go-pipe.js)
+- [커링함수](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture5/go.js)
