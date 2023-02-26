@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}/fp-playground/level1.js"
+            "program": "${workspaceFolder}/fp-playground/level2.js"
         }
     ]
 }
