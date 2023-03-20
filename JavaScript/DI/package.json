@@ -1,0 +1,12 @@
+{
+  "name": "DI",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx tsc index.ts && node index.js && rm -f index.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2"
+  }
+}
