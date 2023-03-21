@@ -5,5 +5,7 @@
     "strict": true,
     "outDir": "dist",
     "rootDir": "src"
-  }
+  },
+  "exclude": ["__test__"],
+  "include": ["src"]
 }
