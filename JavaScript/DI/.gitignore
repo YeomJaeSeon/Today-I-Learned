@@ -1,8 +1,0 @@
-# libs
-node_modules
-
-# build dir
-dist
-
-# vscode
-.vscode
