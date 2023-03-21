@@ -1,0 +1,10 @@
+{
+    "testEnvironment": "node",
+    "moduleDirectories": ["node_modules", "src"],
+    "testMatch": ["**/__test__/**/*.test.ts"],
+    "transform": {
+      "^.+\\.ts?$": "ts-jest"
+    },
+    "forceExit": true
+  }
+  
