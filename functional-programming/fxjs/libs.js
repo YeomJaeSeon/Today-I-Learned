@@ -1,3 +1,5 @@
+export const log = console.log;
+
 export const curry = (f) => (a, ...res) => {
    return res.length ? f(a, ...res) : (...res) => f(a, ...res)
 }
