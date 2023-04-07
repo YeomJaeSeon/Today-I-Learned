@@ -2,12 +2,11 @@
 import {log, reduce} from '../fxjs/libs.js';
 
 const add = (a, b) => a + b;
-const L = {};
+export const L = {};
 
 L.range = function *(l) {
     let i = -1;
     while(++i < l){
-        log(i, 'L.range')
         yield i;
     }
 };
@@ -29,3 +28,13 @@ log(reduce(add, list));
  * 순회하기 전엔, 평가가 되지 않음.
  * reduce함수 호출 할대도, well formed 이터레이터이기 때문에 자신을 리턴하여 새롭게 메모리에 이터레이터를 올리지 않음
  */
+
+function test(name, time, f){
+    console.time(name);
+    while (time--) {
+        f();
+    }
+    console.timeEnd(name)
+}
+
+// test('L.range', 100, () => reduce(add, L.range(1000000)))

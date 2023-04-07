@@ -3,11 +3,10 @@ import {log, reduce} from '../fxjs/libs.js';
 
 const add = (a, b) => a + b;
 
-const range = l => {
+export const range = l => {
     let i = -1;
     const res = [];
     while(++i < l){
-        log(i, 'range')
         res.push(i);
     }
 
@@ -17,3 +16,13 @@ const range = l => {
 const list = range(4);
 // log(list)
 // log(reduce(add, list));
+
+function test(name, time, f){
+    console.time(name);
+    while (time--) {
+        f();
+    }
+    console.timeEnd(name)
+}
+
+// test('range', 100, () => reduce(add, range(1000000)))
