@@ -21,11 +21,13 @@ go(
 // log(take(5, range(1_000_000_000))); // 비효율적. why? 해당 크기만큼의 배열을 만들기 때문. (이터러블인 배열을 만듬)
 console.timeEnd('')
 console.time('')
+
 go(
     L.range(1_000_000),
     take(5),
     log
 )
+
 // log(take(5, L.range(1_000_000))); // 효율적. why? 바로 평가가 지연되어, 5개만 가져올때만 실제로 가져오기에 효율적 (바로 이터레이터)
 // log(take(5, L.range(Infinity))); // 이것도 가능하다. Infinity에 대한 이터레이터는 해당 이터레이터를 순회할때 평가가 되기 때문이다.때문이다
 console.timeEnd('')
