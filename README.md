@@ -32,3 +32,4 @@
 - [함수형 사고](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture4/%ED%95%A8%EC%88%98%ED%98%95%EC%82%AC%EA%B3%A0.md)
 - [코드(함수)를 값으로 다루어 표현력 높이기](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture5/go-pipe.js)
 - [커링함수](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture5/go.js)
+- [지연평가](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture_lazy_1/summary.md)
