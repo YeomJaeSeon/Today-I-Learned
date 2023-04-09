@@ -82,15 +82,15 @@ export const reduce = curry((f, acc, iter) => {
 });
 
 // 즉시 평가 (엄격한 계산) - 가로로 평가됨
-console.time('immediate')
-go(
-    range(10000),
-    map(n => n + 10),
-    filter(n => n % 2),
-    take(10),
-    log
-);
-console.timeEnd('immediate')
+// console.time('immediate')
+// go(
+//     range(5),
+//     map(n => n + 10),
+//     filter(n => n % 2),
+//     take(2),
+//     log
+// );
+// console.timeEnd('immediate')
 
 // L.range, L.map, L.filter
 export const L = {
@@ -129,10 +129,10 @@ export const L = {
 // 느긋한 계산 - 세로로 평가됨
 console.time('lazy')
 go(
-    L.range(10000),
+    L.range(5),
     L.map(n => n + 10),
-    L.filter(n => n % 2),
-    take(10),
+    L.filter(n => n % 2 === 0),
+    take(2),
     log
 );
 console.timeEnd('lazy')

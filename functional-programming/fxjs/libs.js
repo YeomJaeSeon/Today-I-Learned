@@ -47,3 +47,26 @@ const products = [
     {name: '후드티', price: 30000, quantity: 4},
     {name: '바지', price: 25000, quantity: 5}
 ];
+
+export const take = curry((limit, iter) => {
+    const res = [];
+    for(const a of iter){
+        res.push(a);
+        if(res.length === limit) return res;
+    }
+
+    return res;
+})
+
+export const L = {
+    map: curry(function*(f, iter){
+        for(const a of iter){
+            yield f(a)
+        }
+    }),
+    filter: curry(function*(f, iter){
+        for(const a of iter){
+            if(f(a)) yield a;
+        }
+    })
+}
