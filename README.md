@@ -36,3 +36,4 @@
 
 ## Database
 - [B-Tree 인덱스 키 Insert, Delete, Update](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/B-Tree%20%EC%9D%B8%EB%8D%B1%EC%8A%A4%20%ED%82%A4%20%EC%B6%94%EA%B0%80%20%EB%B0%8F%20%EC%82%AD%EC%A0%9C.md)
+- [B-Tree 인덱스 사용에 영향을 미치는 다양한 요소들](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/B-Tree%20%EC%9D%B8%EB%8D%B1%EC%8A%A4%20%EC%82%AC%EC%9A%A9%EC%97%90%20%EC%98%81%ED%96%A5%EC%9D%84%20%EB%AF%B8%EC%B9%98%EB%8A%94%20%EC%9A%94%EC%86%8C.md)
