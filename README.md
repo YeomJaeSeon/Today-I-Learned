@@ -33,3 +33,6 @@
 - [코드(함수)를 값으로 다루어 표현력 높이기](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture5/go-pipe.js)
 - [커링함수](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture5/go.js)
 - [지연평가](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture_lazy_1/summary.md)
+
+## Database
+- [B-Tree 인덱스 키 Insert, Delete, Update](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/B-Tree%20%EC%9D%B8%EB%8D%B1%EC%8A%A4%20%ED%82%A4%20%EC%B6%94%EA%B0%80%20%EB%B0%8F%20%EC%82%AD%EC%A0%9C.md)
