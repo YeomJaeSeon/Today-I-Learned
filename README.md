@@ -38,3 +38,4 @@
 - [B-Tree 인덱스 키 Insert, Delete, Update](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/B-Tree%20%EC%9D%B8%EB%8D%B1%EC%8A%A4%20%ED%82%A4%20%EC%B6%94%EA%B0%80%20%EB%B0%8F%20%EC%82%AD%EC%A0%9C.md)
 - [B-Tree 인덱스 사용에 영향을 미치는 다양한 요소들](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/B-Tree%20%EC%9D%B8%EB%8D%B1%EC%8A%A4%20%EC%82%AC%EC%9A%A9%EC%97%90%20%EC%98%81%ED%96%A5%EC%9D%84%20%EB%AF%B8%EC%B9%98%EB%8A%94%20%EC%9A%94%EC%86%8C.md)
 - [B-Tree 인덱스를 통해 데이터 읽는 방법](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/B-Tree%20%EC%9D%B8%EB%8D%B1%EC%8A%A4%EB%A5%BC%20%ED%86%B5%ED%95%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%9D%BD%EA%B8%B0.md)
+- [공간데이터 인덱스 알고리즘 R-Tree](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/R-Tree%20%EC%9D%B8%EB%8D%B1%EC%8A%A4.md)
