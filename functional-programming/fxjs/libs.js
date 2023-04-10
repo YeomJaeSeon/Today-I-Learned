@@ -70,6 +70,8 @@ export const range = (l) => {
     return res;
 }
 
+export const join = curry((spe = ',', iter) => reduce((a, b) => `${a}${spe}${b}`, iter));
+
 export const L = {
     map: curry(function*(f, iter){
         for(const a of iter){
