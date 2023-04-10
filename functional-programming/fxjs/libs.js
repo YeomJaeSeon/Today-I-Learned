@@ -58,6 +58,18 @@ export const take = curry((limit, iter) => {
     return res;
 })
 
+export const range = (l) => {
+    const res = [];
+    let i = 0;
+
+    while(i < l){
+        res.push(i);
+        i++;
+    }
+
+    return res;
+}
+
 export const L = {
     map: curry(function*(f, iter){
         for(const a of iter){
@@ -68,5 +80,12 @@ export const L = {
         for(const a of iter){
             if(f(a)) yield a;
         }
-    })
+    }),
+    range: function*(l){
+        let i = 0;
+        while(i < l){
+            yield i;
+            i++;
+        }
+    }
 }
