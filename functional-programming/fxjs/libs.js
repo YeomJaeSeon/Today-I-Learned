@@ -107,8 +107,12 @@ export const L = {
                 yield a;
             }
         }
-    }
+    },
 }
+L.flatMap = pipe(
+    L.map,
+    L.flatten
+)
 
 export const flatten = pipe(
     L.flatten,
@@ -118,4 +122,9 @@ export const flatten = pipe(
 export const deepFlatten = pipe(
     L.deepFlatten,
     take(Infinity)
+)
+
+export const flatMap = pipe(
+    L.map,
+    flatten
 )
