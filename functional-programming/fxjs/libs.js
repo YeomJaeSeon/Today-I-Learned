@@ -89,5 +89,33 @@ export const L = {
             yield i;
             i++;
         }
+    },
+    flatten: function*(iter){
+        for(const a of iter){
+            if(a && a[Symbol.iterator]){
+                yield *a;
+            }else{
+                yield a;
+            }
+        }
+    },
+    deepFlatten: function* f(iter){
+        for(const a of iter){
+            if(a && a[Symbol.iterator]){
+                yield *f(a);
+            }else{
+                yield a;
+            }
+        }
     }
 }
+
+export const flatten = pipe(
+    L.flatten,
+    take(Infinity)
+)
+
+export const deepFlatten = pipe(
+    L.deepFlatten,
+    take(Infinity)
+)
