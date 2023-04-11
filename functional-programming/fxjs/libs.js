@@ -109,10 +109,6 @@ export const L = {
         }
     },
 }
-L.flatMap = pipe(
-    L.map,
-    L.flatten
-)
 
 export const flatten = pipe(
     L.flatten,
