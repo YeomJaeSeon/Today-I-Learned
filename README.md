@@ -41,3 +41,4 @@
 - [B-Tree 인덱스를 통해 데이터 읽는 방법](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/B-Tree%20%EC%9D%B8%EB%8D%B1%EC%8A%A4%EB%A5%BC%20%ED%86%B5%ED%95%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%9D%BD%EA%B8%B0.md)
 - [공간데이터 인덱스 알고리즘 R-Tree](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/R-Tree%20%EC%9D%B8%EB%8D%B1%EC%8A%A4.md)
 - [전문 검색 인덱스](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/%EC%A0%84%EB%AC%B8%20%EA%B2%80%EC%83%89%20%EC%9D%B8%EB%8D%B1%EC%8A%A4.md)
+- [함수 기반 인덱스](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/%ED%95%A8%EC%88%98%20%EA%B8%B0%EB%B0%98%20%EC%9D%B8%EB%8D%B1%EC%8A%A4.md)
