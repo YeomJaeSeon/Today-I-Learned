@@ -13,4 +13,3 @@ go1(go1(n1, add5), log);
 
 const n2 = delay100(5)
 go1(go1(n2, add5), log)
-
