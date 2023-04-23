@@ -45,3 +45,5 @@
 - [클러스터링 인덱스](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0%EB%A7%81%20%EC%9D%B8%EB%8D%B1%EC%8A%A4.md)
 - [유니크 인덱스](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/%EC%9C%A0%EB%8B%88%ED%81%AC%20%EC%9D%B8%EB%8D%B1%EC%8A%A4.md)
 - [외래키](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/%EC%99%B8%EB%9E%98%ED%82%A4.md)
+- [옵티마이저 개요](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/%EC%98%B5%ED%8B%B0%EB%A7%88%EC%9D%B4%EC%A0%80%20%EA%B0%9C%EC%9A%94.md)
+- [기본 데이터 처리 - 정렬](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/%EA%B8%B0%EB%B3%B8%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%B2%98%EB%A6%AC.md)
