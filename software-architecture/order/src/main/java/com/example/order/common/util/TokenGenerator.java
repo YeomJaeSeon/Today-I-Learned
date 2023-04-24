@@ -1,4 +1,4 @@
-package com.example.order.comon.util;
+package com.example.order.common.util;
 
 import org.apache.commons.lang3.RandomStringUtils;
 

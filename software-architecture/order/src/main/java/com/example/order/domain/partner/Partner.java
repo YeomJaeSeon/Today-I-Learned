@@ -1,6 +1,6 @@
 package com.example.order.domain.partner;
 
-import com.example.order.comon.util.TokenGenerator;
+import com.example.order.common.util.TokenGenerator;
 import com.example.order.domain.AbstractEntity;
 import jakarta.persistence.*;
 import lombok.Builder;
