@@ -2,6 +2,7 @@ package com.example.order.application.partner;
 
 import com.example.order.domain.notification.NotificationService;
 import com.example.order.domain.partner.PartnerCommand;
+import com.example.order.domain.partner.PartnerCriteria;
 import com.example.order.domain.partner.PartnerInfo;
 import com.example.order.domain.partner.PartnerService;
 import lombok.RequiredArgsConstructor;
@@ -19,5 +20,9 @@ public class PartnerFacade {
         var partnerInfo = partnerService.registerPartner(command);
         notificationService.sendEmail(partnerInfo.getEmail(), "title", "description");
         return partnerInfo;
+    }
+
+    public PartnerInfo getPartnerInfo(PartnerCriteria criteria){
+        return partnerService.getPartnerInfo(criteria.getPartnerToken());
     }
 }
