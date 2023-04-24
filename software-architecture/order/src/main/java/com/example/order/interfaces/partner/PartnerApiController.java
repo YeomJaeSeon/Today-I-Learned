@@ -2,9 +2,8 @@ package com.example.order.interfaces.partner;
 
 import com.example.order.application.partner.PartnerFacade;
 import com.example.order.common.response.CommonResponse;
-import com.example.order.domain.partner.PartnerCriteria;
+import com.example.order.domain.partner.PartnerInfo;
 import jakarta.validation.Valid;
-import jakarta.validation.constraints.NotEmpty;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
@@ -26,8 +25,21 @@ public class PartnerApiController {
 
     @GetMapping("/{partnerToken}")
     public CommonResponse getPartnerInfo(@PathVariable String partnerToken){
-        var criteria = new PartnerCriteria(partnerToken);
-        var partnerInfo = partnerFacade.getPartnerInfo(criteria);
+        var partnerInfo = partnerFacade.getPartnerInfo(partnerToken);
+        var response = new PartnerDto.RegisterResponse(partnerInfo);
+        return CommonResponse.success(response);
+    }
+
+    @PostMapping("enable/{partnerToken}")
+    public CommonResponse enablePartner(@PathVariable String partnerToken){
+        var partnerInfo = partnerFacade.enablePartner(partnerToken);
+        var response = new PartnerDto.RegisterResponse(partnerInfo);
+        return CommonResponse.success(response);
+    }
+
+    @PostMapping("disable/{partnerToken}")
+    public CommonResponse disablePartner(@PathVariable String partnerToken){
+        var partnerInfo = partnerFacade.disablePartner(partnerToken);
         var response = new PartnerDto.RegisterResponse(partnerInfo);
         return CommonResponse.success(response);
     }
