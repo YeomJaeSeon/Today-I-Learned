@@ -47,3 +47,4 @@
 - [외래키](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/%EC%99%B8%EB%9E%98%ED%82%A4.md)
 - [옵티마이저 개요](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/%EC%98%B5%ED%8B%B0%EB%A7%88%EC%9D%B4%EC%A0%80%20%EA%B0%9C%EC%9A%94.md)
 - [기본 데이터 처리 - 정렬](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/%EA%B8%B0%EB%B3%B8%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%B2%98%EB%A6%AC.md)
+- [MRR(Multi Range Read)](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/MRR.md)
