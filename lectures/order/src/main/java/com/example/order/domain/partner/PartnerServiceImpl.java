@@ -16,21 +16,21 @@ public class PartnerServiceImpl implements PartnerService{
     @Transactional
     public PartnerInfo registerPartner(PartnerCommand command) {
         var initPartner = command.toEntity();
-        Partner partner = partnerStore.store(initPartner);
+        var partner = partnerStore.store(initPartner);
         return new PartnerInfo(partner);
     }
 
     @Override
     @Transactional(readOnly = true)
     public PartnerInfo getPartnerInfo(String partnerToken) {
-        Partner partner = partnerReader.getPartner(partnerToken);
+        Partner partner = partnerReader.getPartnerByToken(partnerToken);
         return new PartnerInfo(partner);
     }
 
     @Override
     @Transactional
     public PartnerInfo enablePartner(String partnerToken) {
-        Partner partner = partnerReader.getPartner(partnerToken);
+        Partner partner = partnerReader.getPartnerByToken(partnerToken);
         partner.enable();
         return new PartnerInfo(partner);
     }
@@ -38,7 +38,7 @@ public class PartnerServiceImpl implements PartnerService{
     @Override
     @Transactional
     public PartnerInfo disablePartner(String partnerToken) {
-        Partner partner = partnerReader.getPartner(partnerToken);
+        Partner partner = partnerReader.getPartnerByToken(partnerToken);
         partner.disable();
         return new PartnerInfo(partner);
     }

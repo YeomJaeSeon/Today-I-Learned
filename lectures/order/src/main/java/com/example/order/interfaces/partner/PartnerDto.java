@@ -5,27 +5,25 @@ import com.example.order.domain.partner.PartnerCommand;
 import com.example.order.domain.partner.PartnerInfo;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotEmpty;
-import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
 public class PartnerDto {
+
     @Getter
     @Setter
     @ToString
-    public static class RegisterRequest {
-        @NotEmpty(message = "partnerName 는 필수값입니다")
+    public static class RegisterRequest{
+        @NotEmpty(message = "partnerName 필수")
         private String partnerName;
-
-        @NotEmpty(message = "businessNo 는 필수값입니다")
+        @NotEmpty(message = "businessNo 필수")
         private String businessNo;
-
-        @Email(message = "email 형식에 맞아야 합니다")
-        @NotEmpty(message = "email 는 필수값입니다")
+        @Email(message = "email")
+        @NotEmpty(message = "email 필수")
         private String email;
 
-        public PartnerCommand toCommand() {
+        public PartnerCommand toCommand(){
             return PartnerCommand.builder()
                     .partnerName(partnerName)
                     .businessNo(businessNo)
@@ -36,7 +34,7 @@ public class PartnerDto {
 
     @Getter
     @ToString
-    public static class RegisterResponse {
+    public static class RegisterResponse{
         private final String partnerToken;
         private final String partnerName;
         private final String businessNo;

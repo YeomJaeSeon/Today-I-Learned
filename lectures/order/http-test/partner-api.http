@@ -9,13 +9,22 @@ Content-Type: application/json
 }
 
 ### 파트너 조회
-GET http://localhost:8080/api/v1/partners/ptn_kDAHp7ylftzWyqHa
+GET http://localhost:8080/api/v1/partners/ptn_kc9d66jIcMcrMe3l
 Content-Type: application/json
+
+{
+}
 
 ### 파트너 활성화
-POST http://localhost:8080/api/v1/partners/enable/ptn_kDAHp7ylftzWyqHa
+POST http://localhost:8080/api/v1/partners/enable/ptn_eXWYFng43w7JTErD
 Content-Type: application/json
 
+{
+}
+
 ### 파트너 비활성화
-POST http://localhost:8080/api/v1/partners/disable/ptn_kDAHp7ylftzWyqHa
+POST http://localhost:8080/api/v1/partners/disable/ptn_eXWYFng43w7JTErD
 Content-Type: application/json
+
+{
+}

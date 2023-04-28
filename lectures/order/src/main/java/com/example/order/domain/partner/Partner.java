@@ -1,5 +1,7 @@
 package com.example.order.domain.partner;
 
+
+import com.example.order.common.exception.InvalidParamException;
 import com.example.order.common.util.TokenGenerator;
 import com.example.order.domain.AbstractEntity;
 import jakarta.persistence.*;
@@ -17,7 +19,6 @@ import org.apache.commons.lang3.StringUtils;
 @Table(name = "partners")
 public class Partner extends AbstractEntity {
     private static final String PREFIX_PARTNER = "ptn_";
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -30,18 +31,16 @@ public class Partner extends AbstractEntity {
 
     @Getter
     @RequiredArgsConstructor
-    public enum Status {
+    public enum Status{
         ENABLE("활성화"), DISABLE("비활성화");
-
         private final String description;
     }
 
     @Builder
     public Partner(String partnerName, String businessNo, String email) {
-        // libs 이용하면 코드 깔끔하게 가져갈수 있다.
-        if(StringUtils.isEmpty(partnerName)) throw new RuntimeException("empty partnerName");
-        if(StringUtils.isEmpty(businessNo)) throw new RuntimeException("empty businessNo");
-        if(StringUtils.isEmpty(email)) throw new RuntimeException("empty email");
+        if(StringUtils.isBlank(partnerName)) throw new InvalidParamException("Partner.partnerName");
+        if(StringUtils.isBlank(businessNo)) throw new InvalidParamException("Partner.businessNo");
+        if(StringUtils.isBlank(email)) throw new InvalidParamException("Partner.email");
 
         this.partnerToken = TokenGenerator.randomCharacterWithPrefix(PREFIX_PARTNER);
         this.partnerName = partnerName;
