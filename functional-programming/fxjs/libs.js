@@ -23,17 +23,27 @@ export const filter = curry((f, iter) => {
     return res;
 })
 
+const go1 = (a, f) => a instanceof Promise ? a.then(f) : f(a);
+
 export const reduce = curry((f, acc, iter) => {
     if(!iter){
         iter = acc[Symbol.iterator]();
         acc = iter.next().value;
     }
 
-    for(const a of iter){
-        acc = f(acc, a);
-    }
+    // for(const a of iter){
+    //     acc = f(acc, a);
+    //     // acc = acc instanceof Promise ? acc.then(acc => f(acc, a)) : f(acc, a);
+    // }
 
-    return acc;
+    return go1(acc,function recur(acc){
+        for(const a of iter){
+            acc = f(acc, a);
+            if(acc instanceof Promise) return acc.then(recur);
+        }
+
+        return acc;
+    })
 })
 
 export const go = (...args) => reduce((a, f) => f(a), args);
