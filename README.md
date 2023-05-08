@@ -50,4 +50,4 @@
 - [MRR(Multi Range Read)](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/MRR.md)
 - [옵티마이저 고급 최적화 - 인덱스 확장](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/%EC%9D%B8%EB%8D%B1%EC%8A%A4%20%ED%99%95%EC%9E%A5.md)
 - [옵티마이저 고급 최적화 - 인덱스 머지](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/%EC%9D%B8%EB%8D%B1%EC%8A%A4%20%EB%A8%B8%EC%A7%80.md)
-- [옵티마이저 고급 최적화 - 세미조인](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/%EC%84%B8%EB%AF%B8%EC%A1%B0%EC%9D%B8.md)
+- [옵티마이저 고급 최적화 - 세미조인과 세미조인 최적화](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/%EC%84%B8%EB%AF%B8%EC%A1%B0%EC%9D%B8.md)
