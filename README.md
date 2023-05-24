@@ -18,12 +18,6 @@
 - [라우팅 프로토콜 - RIP](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Network/RIP/summary.md)
 - [라우팅 프로토콜 - OSPF](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Network/OSPF/summary.md)
 
-## 자바스크립트
-
-- [콜백](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/JavaScript/Promise/callback.md)
-- [프라미스](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/JavaScript/Promise/promise.md)
-- [프라미스 체이닝](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/JavaScript/Promise/promise-chaining.md)
-
 ## DDD
 - [DDD layered architecture의 각 layer 역할과 책임](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/lectures/order/README.md)
 
@@ -44,6 +38,12 @@
 - [옵티마이저 고급 최적화 - 인덱스 머지](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/%EC%9D%B8%EB%8D%B1%EC%8A%A4%20%EB%A8%B8%EC%A7%80.md)
 - [옵티마이저 고급 최적화 - 세미조인과 세미조인 최적화](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/%EC%84%B8%EB%AF%B8%EC%A1%B0%EC%9D%B8.md)
 - [쿼리 힌트 - 인덱스 힌트](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/%EC%BF%BC%EB%A6%AC%20%ED%9E%8C%ED%8A%B8.md)
+
+## 자바스크립트
+
+- [콜백](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/JavaScript/Promise/callback.md)
+- [프라미스](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/JavaScript/Promise/promise.md)
+- [프라미스 체이닝](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/JavaScript/Promise/promise-chaining.md)
 
 ## 함수형 프로그래밍
 - [일급함수와 고차함수](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture1/%EC%9D%BC%EA%B8%89-%EA%B3%A0%EC%B0%A8%ED%95%A8%EC%88%98.js)
