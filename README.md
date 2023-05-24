@@ -24,16 +24,8 @@
 - [프라미스](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/JavaScript/Promise/promise.md)
 - [프라미스 체이닝](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/JavaScript/Promise/promise-chaining.md)
 
-## 함수형 프로그래밍
-- [일급함수와 고차함수](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture1/%EC%9D%BC%EA%B8%89-%EA%B3%A0%EC%B0%A8%ED%95%A8%EC%88%98.js)
-- [es6 이터러블/이터레이터 프로토콜](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture2/iterator-iterable-protocol.js)
-- [제너레이터 함수](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture3/%EC%A0%9C%EB%84%88%EB%A0%88%EC%9D%B4%ED%84%B0-%EC%9D%B4%ED%84%B0%EB%A0%88%EC%9D%B4%ED%84%B0.js)
-- [이터러블/이터레이터 프로토콜을 따르는 map, filter, reduce](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture4/summary.js)
-- [함수형 사고](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture4/%ED%95%A8%EC%88%98%ED%98%95%EC%82%AC%EA%B3%A0.md)
-- [코드(함수)를 값으로 다루어 표현력 높이기](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture5/go-pipe.js)
-- [커링함수](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture5/go.js)
-- [지연평가](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture_lazy_1/summary.md)
-- [비동기 상황을 값으로써 다룰 수 있는 Promise](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/async_concurrency_1/callback_promise.js)
+## DDD
+- [DDD layered architecture의 각 layer 역할과 책임](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/lectures/order/README.md)
 
 ## Database
 - [B-Tree 인덱스 키 Insert, Delete, Update](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/B-Tree%20%EC%9D%B8%EB%8D%B1%EC%8A%A4%20%ED%82%A4%20%EC%B6%94%EA%B0%80%20%EB%B0%8F%20%EC%82%AD%EC%A0%9C.md)
@@ -52,3 +44,14 @@
 - [옵티마이저 고급 최적화 - 인덱스 머지](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/%EC%9D%B8%EB%8D%B1%EC%8A%A4%20%EB%A8%B8%EC%A7%80.md)
 - [옵티마이저 고급 최적화 - 세미조인과 세미조인 최적화](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/%EC%84%B8%EB%AF%B8%EC%A1%B0%EC%9D%B8.md)
 - [쿼리 힌트 - 인덱스 힌트](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/Database/%EC%BF%BC%EB%A6%AC%20%ED%9E%8C%ED%8A%B8.md)
+
+## 함수형 프로그래밍
+- [일급함수와 고차함수](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture1/%EC%9D%BC%EA%B8%89-%EA%B3%A0%EC%B0%A8%ED%95%A8%EC%88%98.js)
+- [es6 이터러블/이터레이터 프로토콜](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture2/iterator-iterable-protocol.js)
+- [제너레이터 함수](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture3/%EC%A0%9C%EB%84%88%EB%A0%88%EC%9D%B4%ED%84%B0-%EC%9D%B4%ED%84%B0%EB%A0%88%EC%9D%B4%ED%84%B0.js)
+- [이터러블/이터레이터 프로토콜을 따르는 map, filter, reduce](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture4/summary.js)
+- [함수형 사고](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture4/%ED%95%A8%EC%88%98%ED%98%95%EC%82%AC%EA%B3%A0.md)
+- [코드(함수)를 값으로 다루어 표현력 높이기](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture5/go-pipe.js)
+- [커링함수](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture5/go.js)
+- [지연평가](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/lecture_lazy_1/summary.md)
+- [비동기 상황을 값으로써 다룰 수 있는 Promise](https://github.com/YeomJaeSeon/Today-I-Learned/blob/main/functional-programming/async_concurrency_1/callback_promise.js)
