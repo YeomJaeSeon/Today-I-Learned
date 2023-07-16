@@ -1,0 +1,2 @@
+1. HTTP 프로토콜로 서버가 클라이언트에게 하나의 response 메시지를 응답하는데, response body에 `<img src=~ />`가 3개 포함되어있다면 이후 이미지 세개를 받기 위해 클라이언트는 한번의 request 메시지로 요청할 수 있을까?
+2. `https://www.jaeseon.com/hello` url을 클라이언트가 요청할때, 클라이언트가 어떻게 url을 분석할까? 2개의 케이스로 나누어서 설명하라.
